@@ -45,6 +45,7 @@
     font-weight: bolder;
     font-style: normal;
     max-width: 100%;
+    margin-bottom: -10px;
 }
 .header_text h1 {
     font-family: cursive;
