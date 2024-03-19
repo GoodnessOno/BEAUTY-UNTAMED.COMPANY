@@ -1,0 +1,67 @@
+/* Hide all slides by default */
+.slideshow {
+    display: none;
+}
+.slideshow img {
+    max-width: 100%;
+    height: auto;
+}
+/* Show the first slide by default */
+.slideshow:first-child {
+    display: block;
+}
+  
+  /* Style for the button to change slides */
+#slideButton {
+    cursor: pointer;
+    background-color: #007bff; /* Adjust color as needed */
+    color: #fff; /* Adjust color as needed */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+  
+  /* Style for container (optional) */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+  
+  /* Optional: Add CSS transitions for smoother slide transitions */
+.slideshow {
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+.header_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    max-width: 100%;
+}
+.header_text h1 {
+    font-family: cursive;
+}
+.header_text .dropdown {
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav ul li {
+   display: inline;
+   justify-content: space-between;
+}
+.header {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.web_title {
+    display: flex;
+    justify-content: space-evenly;
+} 
