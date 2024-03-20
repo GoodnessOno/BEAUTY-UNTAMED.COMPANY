@@ -18,3 +18,19 @@ function showSlides() {
 showSlides(); // Start the slideshow when the page loads
 
 
+document.addEventListener("DOMContentLoaded", function() {
+  console.log("DOM fully loaded.");
+  const catalog = document.querySelector(".catalog");
+  const items = document.querySelectorAll(".item");
+  const itemWidth = items[0].offsetWidth;
+  const containerWidth = catalog.offsetWidth;
+  const maxVisibleItems = Math.floor(containerWidth / itemWidth);
+  let currentIndex = 0;
+
+  console.log("Max visible items:", maxVisibleItems);
+
+  function updatePosition() {
+    const newPosition = -currentIndex * itemWidth;
+    catalog.style.transform = `translateX(${newPosition}px)`;
+}
+});
