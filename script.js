@@ -1,3 +1,6 @@
+// script.js
+angular.module('myApp', []);
+
 var slideIndex = 0;
 var slideDuration = 2000; // Change the time interval as per your requirement
 

@@ -1,0 +1,156 @@
+{
+"intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey there",
+          "Good morning/afternoon/evening",
+          "How are you?"
+        ],
+        "responses": [
+          "Hi there! Welcome to Beauty Untamed. How can I help you today?",
+          "Hello!  Looking your best starts here. What can I do for you?",
+          "Hey gorgeous!  What are you interested in finding today?"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later",
+          "Thanks",
+          "Have a nice day"
+        ],
+        "responses": [
+          "Thanks for chatting! Have a beautiful day!",
+          "See you soon!  Come back and visit Beauty Untamed anytime.",
+          "Bye!  Wishing you a fabulous day."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "products",
+        "patterns": [
+          "What products do you sell?",
+          "I'm looking for a new [product category]",
+          "Do you have any [product type] products?",
+          "Show me your products"
+        ],
+        "responses": [
+          "We offer a wide range of natural beauty products!  What kind of product are you interested in (e.g., skincare, haircare, makeup)?",
+          "Absolutely!  We have something for everyone.  Would you like to browse by category or are you looking for something specific?",
+          "Yes, we do!  Our natural [product type] products are formulated to nourish and enhance your beauty.  Can you tell me a little more about what you're looking for?"
+        ],
+        "context": [
+          "products"
+        ]
+      },
+      {
+        "tag": "product_inquiry",
+        "patterns": [
+          "Tell me more about the [product name]",
+          "What are the benefits of using [product name]?",
+          "How do I use [product name]?"
+        ],
+        "responses": [
+          "Sure, I can tell you more about [product name].  It's a [brief description of product and benefits].  Would you like to see it on our website?",
+          "[Product name] is formulated with natural ingredients to [list benefits].  Is there anything else I can tell you about it?",
+          "We recommend using [product name] [usage instructions].  For detailed instructions, you can visit the product page on our website."
+        ],
+        "context": [
+          "products"
+        ]
+      },
+      {
+        "tag": "appointment",
+        "patterns": [
+          "Can I book an appointment?",
+          "I'd like to schedule a consultation",
+          "How do I book an appointment for [service]?"
+        ],
+        "responses": [
+          "Absolutely!  We'd love to help you schedule an appointment.  Would you like to do it through our website or can I connect you with someone who can assist you?",
+          "Of course!  Consultations are a great way to discuss your beauty needs and find the perfect products for you.  Would you like me to direct you to our appointment booking page?",
+          "We offer a variety of services, including [list services].  Can you tell me a little more about what you're interested in so I can connect you with the right person?"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "What are your delivery options?",
+          "How long will it take to get my order?",
+          "Where can I find information about delivery?"
+        ],
+        "responses": [
+          "We offer a variety of delivery options to suit your needs.  You can find all the details on our website, including estimated delivery times and costs.",
+          "Delivery times can vary depending on your location and chosen option.  For the most up-to-date information, you can visit our delivery page on the website.",
+          "Absolutely!  Our website has a dedicated delivery information section that explains all our options and estimated timeframes.  Would you like me to direct you there?"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "payment",
+        "patterns":[
+            "How can I make payments?",
+            "Do you accept credit cards?",
+            "What payment method do you use?"
+        ],
+        "responses":[
+            "We accept paypal as well as all major credit cards and debit cards.  You can find all the details on our website."
+        ],
+        "context":[
+            ""
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns":[
+            "I need help",
+            "I'm having trouble",
+            "How can I contact you?",
+            "I need support"
+        ],
+        "responses":[
+            "If you need help, you can contact me at [email address].",
+            "You can reach me at [phone number].",
+            "You can reach me at [email address] or [phone number].",
+            "You can leave a comment at any blog post"
+        ],
+        "context":[
+            ""
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns":[
+            "Thank you",
+            "I'm looking forward to seeing you",
+            "I'm looking forward to seeing you soon",
+            "I'm looking forward to seeing you sooner",
+            "I'm looking forward to seeing you soonest",
+            "I'm looking forward to seeing you soonest!"
+        ],
+        "responses":[
+            "Thank you!  We look forward to seeing you soon.",
+            "Thank you!  We look forward to seeing you sooner.",
+            "Thank you!  We look forward to seeing you soonest."
+        ],
+        "context":[
+            ""
+        ]
+      }
+]}
+  
