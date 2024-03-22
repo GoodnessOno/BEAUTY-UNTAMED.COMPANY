@@ -1,7 +1,7 @@
 // script.js
 angular.module('myApp', []);
 
-var slideIndex = 0;
+var slideIndex = 0; // Set the initial slide index to 0 when the page loads to show the first slide
 var slideDuration = 2000; // Change the time interval as per your requirement
 
 function showSlides() {
